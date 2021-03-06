@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>Animator.h</itemPath>
+      <itemPath>ColorRamp.h</itemPath>
+      <itemPath>FunctionGrid.h</itemPath>
+      <itemPath>ParametricSurfacesDemo.h</itemPath>
+      <itemPath>ScreenSaverMain.h</itemPath>
+      <itemPath>SurfaceFactory.h</itemPath>
+      <itemPath>SurfaceGrid.h</itemPath>
+      <itemPath>logger.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>src/Animator.cpp</itemPath>
+        <itemPath>src/ColorRamp.cpp</itemPath>
+        <itemPath>src/FunctionGrid.cpp</itemPath>
+        <itemPath>src/ParametricSurfacesDemo.cpp</itemPath>
+        <itemPath>src/ScreenSaverMain.cpp</itemPath>
+        <itemPath>src/SurfaceFactory.cpp</itemPath>
+        <itemPath>src/SurfaceGrid.cpp</itemPath>
+        <itemPath>src/logger.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW_QT|MinGW</compilerSet>
+        <platform>3</platform>
+        <dependencyChecking>true</dependencyChecking>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>src/include</pElem>
+            <pElem>sdk/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/screensaver</output>
+          <linkerAddLib>
+            <pElem>sdk/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>glu32</linkerLibLibItem>
+            <linkerLibLibItem>glaux</linkerLibLibItem>
+            <linkerLibLibItem>lwtk</linkerLibLibItem>
+            <linkerLibLibItem>render2d</linkerLibLibItem>
+            <linkerLibLibItem>render3d</linkerLibLibItem>
+            <linkerLibLibItem>LMath</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows -mwin32</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW_QT|MinGW</compilerSet>
+        <platform>3</platform>
+        <dependencyChecking>true</dependencyChecking>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>src/include</pElem>
+            <pElem>sdk/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/screensaver</output>
+          <linkerAddLib>
+            <pElem>sdk/lib</pElem>
+          </linkerAddLib>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>glu32</linkerLibLibItem>
+            <linkerLibLibItem>glaux</linkerLibLibItem>
+            <linkerLibLibItem>lwtk</linkerLibLibItem>
+            <linkerLibLibItem>render2d</linkerLibLibItem>
+            <linkerLibLibItem>render3d</linkerLibLibItem>
+            <linkerLibLibItem>LMath</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows -mwin32</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="ApplicationMode" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW_QT|MinGW</compilerSet>
+        <platform>3</platform>
+        <dependencyChecking>true</dependencyChecking>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>src/include</pElem>
+            <pElem>sdk/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/screensaver</output>
+          <linkerAddLib>
+            <pElem>sdk/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>glu32</linkerLibLibItem>
+            <linkerLibLibItem>glaux</linkerLibLibItem>
+            <linkerLibLibItem>lwtk</linkerLibLibItem>
+            <linkerLibLibItem>render2d</linkerLibLibItem>
+            <linkerLibLibItem>render3d</linkerLibLibItem>
+            <linkerLibLibItem>LMath</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows -mwin32</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

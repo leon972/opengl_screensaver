@@ -1,0 +1,32 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+CND_BUILDDIR=build
+CND_DISTDIR=dist
+# Debug configuration
+CND_PLATFORM_Debug=MinGW_QT-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug
+CND_ARTIFACT_NAME_Debug=screensaver
+CND_ARTIFACT_PATH_Debug=dist/Debug/screensaver
+CND_PACKAGE_DIR_Debug=dist/Debug/MinGW_QT-Windows/package
+CND_PACKAGE_NAME_Debug=ssaver.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW_QT-Windows/package/ssaver.tar
+# Release configuration
+CND_PLATFORM_Release=MinGW_QT-Windows
+CND_ARTIFACT_DIR_Release=dist/Release
+CND_ARTIFACT_NAME_Release=screensaver
+CND_ARTIFACT_PATH_Release=dist/Release/screensaver
+CND_PACKAGE_DIR_Release=dist/Release/MinGW_QT-Windows/package
+CND_PACKAGE_NAME_Release=ssaver.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW_QT-Windows/package/ssaver.tar
+# ApplicationMode configuration
+CND_PLATFORM_ApplicationMode=MinGW_QT-Windows
+CND_ARTIFACT_DIR_ApplicationMode=dist/ApplicationMode
+CND_ARTIFACT_NAME_ApplicationMode=screensaver
+CND_ARTIFACT_PATH_ApplicationMode=dist/ApplicationMode/screensaver
+CND_PACKAGE_DIR_ApplicationMode=dist/ApplicationMode/MinGW_QT-Windows/package
+CND_PACKAGE_NAME_ApplicationMode=ssaver.tar
+CND_PACKAGE_PATH_ApplicationMode=dist/ApplicationMode/MinGW_QT-Windows/package/ssaver.tar
